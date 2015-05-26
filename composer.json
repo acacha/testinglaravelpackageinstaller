@@ -2,6 +2,6 @@
     "name": "acacha/testinglaravelpackageinstaller",
     "type": "laravel-package",
     "require": {
-        "acacha/laravel-package-installer": "0.*"
+        "acacha/laravel-package-installer": "dev-master"
     }
 }
