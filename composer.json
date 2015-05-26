@@ -1,0 +1,7 @@
+{
+    "name": "acacha/testinglaravelpackageinstaller",
+    "type": "laravel-package",
+    "require": {
+        "acacha/laravel-package-installer": "0.*"
+    }
+}

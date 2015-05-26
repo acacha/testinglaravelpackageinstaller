@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "0629b8f38ce710778fe886d63ece84eb",
+    "packages": [
+        {
+            "name": "acacha/laravel-package-installer",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/acacha/laravel-package-installer.git",
+                "reference": "889355142fe69f89cd7044df817777fae0b2c227"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/acacha/laravel-package-installer/zipball/889355142fe69f89cd7044df817777fae0b2c227",
+                "reference": "889355142fe69f89cd7044df817777fae0b2c227",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "1.0.0",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "composer/composer": "master-dev"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "\\acacha\\composer\\laravelpackageinstaller\\ComposerLaravelPackageInstallerPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "acacha\\composer\\laravelpackageinstaller\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Composer Plugin for automation of laravel 5 packages",
+            "keywords": [
+                "composer",
+                "installer",
+                "laravel",
+                "package"
+            ],
+            "time": "2015-05-26 09:54:14"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
