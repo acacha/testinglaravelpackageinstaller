@@ -1,7 +1,16 @@
 {
     "name": "acacha/testinglaravelpackageinstaller",
+    "description": "No description yet!",
+    "license": "MIT",
     "type": "laravel-package",
     "require": {
         "acacha/laravel-package-installer": "dev-master"
+    },
+    "extra" : {
+        "prova" : "valor",
+        "prova2": "valor2",
+        "providers": "\\App\\Provider1",
+        "aliases": ["\\App\\Facade1","\\App\\Facade2"]
     }
+
 }
