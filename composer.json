@@ -9,8 +9,8 @@
     "extra" : {
         "prova" : "valor",
         "prova2": "valor2",
-        "providers": "\\App\\Provider1",
-        "aliases": ["\\App\\Facade1","\\App\\Facade2"]
+        "laravel-providers": "\\App\\Provider1",
+        "laravel-aliases": ["\\App\\Facade1","\\App\\Facade2"]
     }
 
 }
